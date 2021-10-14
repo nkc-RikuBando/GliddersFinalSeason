@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3714529478285080862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3714529478285080848}
+  - component: {fileID: 3714529478285080849}
+  m_Layer: 0
+  m_Name: SkillCutInGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3714529478285080848
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3714529478285080862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.06775, y: 282.63855, z: -404.2913}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3714529478285080849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3714529478285080862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2892725982a15474f8bc28b85e1a29bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterSprites:
+  - {fileID: 21300000, guid: cf5f81af53b5ce04f81fcd57b38dd57c, type: 3}
+  - {fileID: 21300000, guid: feb0fecb294205e4bae89b3e9543d21a, type: 3}
+  - {fileID: 21300000, guid: 64abc1062e85fc841b1336b047f67df7, type: 3}
+  - {fileID: 21300000, guid: 8569188ec7aa77a4eb8f1e06bc1a76f0, type: 3}
+  cutInSprites:
+  - {fileID: 21300000, guid: f0548488bbe9a1d4fbaba28f7baef3c8, type: 3}
+  - {fileID: 21300000, guid: 23eb4f96cace4474a952a7228da908c0, type: 3}
+  - {fileID: 21300000, guid: 2d5f79daf0b1874419ebd0858505340c, type: 3}
+  - {fileID: 21300000, guid: b6eeb6df125d3284fa2aeb184e7f8270, type: 3}
+  cutInCharacterImage: {fileID: 0}
+  cutInImage: {fileID: 0}
+  skillNameText: {fileID: 0}
+  cutInObject: {fileID: 0}
+  testSkill: {fileID: 0}
+  testNumber: 1
